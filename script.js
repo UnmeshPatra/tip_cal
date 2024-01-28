@@ -68,6 +68,7 @@ const increasePeople = () => {
 const decreasePeople = () => {
   
   if(numberOfPeople<=1){
+    alert("you cant take less than one person in the list")
     return
   }
   
